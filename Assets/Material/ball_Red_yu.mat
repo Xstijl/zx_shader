@@ -25,11 +25,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _node_9147:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f424b1d22fadbb84e8e87d8481188a2d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _highlight_range: 0.9
+    - _highlight_range1: 0.96
+    - _highlight_range2: 0.98
+    - _node_7735: 0.9
     m_Colors:
-    - _highlight_offset1: {r: 0, g: 0, b: 0, a: 0}
+    - _Fresnel_color: {r: 1, g: 1, b: 1, a: 1}
+    - _highlight_color: {r: 1, g: 0.8820755, b: 0.8820755, a: 1}
+    - _highlight_offset1: {r: 0, g: -0.79, b: 0, a: 0}
+    - _highlight_offset2: {r: 0, g: -0.39, b: 0, a: 0}
   m_BuildTextureStacks: []
