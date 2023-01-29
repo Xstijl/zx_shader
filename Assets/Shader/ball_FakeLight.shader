@@ -1,13 +1,15 @@
 // Shader created with Shader Forge v1.40 
 // Shader Forge (c) Freya Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.40;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,cpap:True,lico:1,lgpr:1,limd:1,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:1905,x:32994,y:32695,varname:node_1905,prsc:2|emission-4151-OUT;n:type:ShaderForge.SFN_Dot,id:2380,x:32211,y:32645,varname:node_2380,prsc:2,dt:0|A-746-OUT,B-9535-OUT;n:type:ShaderForge.SFN_NormalVector,id:746,x:32036,y:32621,prsc:2,pt:False;n:type:ShaderForge.SFN_Vector4Property,id:7336,x:31829,y:32782,ptovrint:False,ptlb:OneVector：伪造光方向,ptin:_OneVector,varname:node_7336,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0,v2:1,v3:1,v4:0;n:type:ShaderForge.SFN_Normalize,id:9535,x:32015,y:32782,varname:node_9535,prsc:2|IN-7336-XYZ;n:type:ShaderForge.SFN_RemapRange,id:295,x:32373,y:32645,varname:node_295,prsc:2,frmn:-1,frmx:1,tomn:0,tomx:1|IN-2380-OUT;n:type:ShaderForge.SFN_Color,id:4727,x:31961,y:33010,ptovrint:False,ptlb:OneCorlor 伪造光颜色,ptin:_OneCorlor,varname:node_4727,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:0.917464,c3:0.6179246,c4:1;n:type:ShaderForge.SFN_Multiply,id:8958,x:32188,y:32995,varname:node_8958,prsc:2|A-295-OUT,B-4727-RGB;n:type:ShaderForge.SFN_Multiply,id:4151,x:32388,y:32995,varname:node_4151,prsc:2|A-8958-OUT,B-6578-OUT;n:type:ShaderForge.SFN_Slider,id:6578,x:31961,y:33227,ptovrint:False,ptlb:OneSlider 伪造光强度,ptin:_OneSlider,varname:node_6578,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;proporder:7336-4727-6578;pass:END;sub:END;*/
+/*SF_DATA;ver:1.40;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,cpap:True,lico:1,lgpr:1,limd:1,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:False,hqlp:False,rprd:False,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:1905,x:32994,y:32695,varname:node_1905,prsc:2|emission-8207-OUT;n:type:ShaderForge.SFN_Dot,id:2380,x:32211,y:32645,varname:node_2380,prsc:2,dt:0|A-746-OUT,B-9535-OUT;n:type:ShaderForge.SFN_NormalVector,id:746,x:32036,y:32621,prsc:2,pt:False;n:type:ShaderForge.SFN_Vector4Property,id:7336,x:31829,y:32782,ptovrint:False,ptlb:OneVector：伪造光方向,ptin:_OneVector,varname:node_7336,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0,v2:1,v3:1,v4:0;n:type:ShaderForge.SFN_Normalize,id:9535,x:32015,y:32782,varname:node_9535,prsc:2|IN-7336-XYZ;n:type:ShaderForge.SFN_RemapRange,id:295,x:32373,y:32645,varname:node_295,prsc:2,frmn:-1,frmx:1,tomn:0,tomx:1|IN-2380-OUT;n:type:ShaderForge.SFN_Color,id:4727,x:31961,y:33010,ptovrint:False,ptlb:OneCorlor  伪造光颜色,ptin:_OneCorlor,varname:node_4727,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:0.917464,c3:0.6179246,c4:1;n:type:ShaderForge.SFN_Multiply,id:8958,x:32188,y:32995,varname:node_8958,prsc:2|A-295-OUT,B-4727-RGB;n:type:ShaderForge.SFN_Multiply,id:4151,x:32388,y:32995,varname:node_4151,prsc:2|A-8958-OUT,B-6578-OUT;n:type:ShaderForge.SFN_Slider,id:6578,x:31961,y:33227,ptovrint:False,ptlb:OneSlider 伪造光强度,ptin:_OneSlider,varname:node_6578,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.329697,max:1;n:type:ShaderForge.SFN_TexCoord,id:1483,x:32353,y:33233,varname:node_1483,prsc:2,uv:0,uaff:False;n:type:ShaderForge.SFN_Tex2d,id:1767,x:32528,y:33245,ptovrint:False,ptlb:OneTexture,ptin:_OneTexture,varname:node_1767,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:6a985dfcd1d3ca94e9753748ed65c697,ntxv:0,isnm:False|UVIN-1483-UVOUT;n:type:ShaderForge.SFN_Multiply,id:8274,x:32615,y:32943,varname:node_8274,prsc:2|A-4151-OUT,B-1767-RGB;n:type:ShaderForge.SFN_SwitchProperty,id:8207,x:32804,y:33098,ptovrint:False,ptlb:OneSwich,ptin:_OneSwich,varname:node_8207,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,on:True|A-1767-RGB,B-8274-OUT;proporder:7336-4727-6578-1767-8207;pass:END;sub:END;*/
 
 Shader "Xstijl/ball/FakeLight" {
     Properties {
         _OneVector ("OneVector：伪造光方向", Vector) = (0,1,1,0)
-        _OneCorlor ("OneCorlor 伪造光颜色", Color) = (1,0.917464,0.6179246,1)
-        _OneSlider ("OneSlider 伪造光强度", Range(0, 1)) = 0
+        _OneCorlor ("OneCorlor  伪造光颜色", Color) = (1,0.917464,0.6179246,1)
+        _OneSlider ("OneSlider 伪造光强度", Range(0, 1)) = 0.329697
+        _OneTexture ("OneTexture", 2D) = "white" {}
+        [MaterialToggle] _OneSwich ("OneSwich", Float ) = 0
     }
     SubShader {
         Tags {
@@ -29,26 +31,31 @@ Shader "Xstijl/ball/FakeLight" {
             #pragma multi_compile_fwdbase_fullshadows
             #pragma multi_compile_fog
             #pragma target 3.0
+            uniform sampler2D _OneTexture; uniform float4 _OneTexture_ST;
             UNITY_INSTANCING_BUFFER_START( Props )
                 UNITY_DEFINE_INSTANCED_PROP( float4, _OneVector)
                 UNITY_DEFINE_INSTANCED_PROP( float4, _OneCorlor)
                 UNITY_DEFINE_INSTANCED_PROP( float, _OneSlider)
+                UNITY_DEFINE_INSTANCED_PROP( fixed, _OneSwich)
             UNITY_INSTANCING_BUFFER_END( Props )
             struct VertexInput {
                 UNITY_VERTEX_INPUT_INSTANCE_ID
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
+                float2 texcoord0 : TEXCOORD0;
             };
             struct VertexOutput {
                 float4 pos : SV_POSITION;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
-                float3 normalDir : TEXCOORD0;
-                UNITY_FOG_COORDS(1)
+                float2 uv0 : TEXCOORD0;
+                float3 normalDir : TEXCOORD1;
+                UNITY_FOG_COORDS(2)
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
                 UNITY_SETUP_INSTANCE_ID( v );
                 UNITY_TRANSFER_INSTANCE_ID( v, o );
+                o.uv0 = v.texcoord0;
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
                 o.pos = UnityObjectToClipPos( v.vertex );
                 UNITY_TRANSFER_FOG(o,o.pos);
@@ -60,11 +67,12 @@ Shader "Xstijl/ball/FakeLight" {
                 float3 normalDirection = i.normalDir;
 ////// Lighting:
 ////// Emissive:
+                float4 _OneTexture_var = tex2D(_OneTexture,TRANSFORM_TEX(i.uv0, _OneTexture));
                 float4 _OneVector_var = UNITY_ACCESS_INSTANCED_PROP( Props, _OneVector );
-                float node_2380 = dot(i.normalDir,normalize(_OneVector_var.rgb));
                 float4 _OneCorlor_var = UNITY_ACCESS_INSTANCED_PROP( Props, _OneCorlor );
                 float _OneSlider_var = UNITY_ACCESS_INSTANCED_PROP( Props, _OneSlider );
-                float3 emissive = (((node_2380*0.5+0.5)*_OneCorlor_var.rgb)*_OneSlider_var);
+                float3 _OneSwich_var = lerp( _OneTexture_var.rgb, ((((dot(i.normalDir,normalize(_OneVector_var.rgb))*0.5+0.5)*_OneCorlor_var.rgb)*_OneSlider_var)*_OneTexture_var.rgb), UNITY_ACCESS_INSTANCED_PROP( Props, _OneSwich ) );
+                float3 emissive = _OneSwich_var;
                 float3 finalColor = emissive;
                 fixed4 finalRGBA = fixed4(finalColor,1);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);

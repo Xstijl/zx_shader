@@ -69,6 +69,8 @@
     <None Include="Assets\Shader\Lambert.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\Refraction.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
+    <None Include="Assets\Shader\ball_UVblack.shader" />
+    <None Include="Assets\Shader\HalfLambert.shader" />
     <None Include="Assets\Shader\ball_Red_yu.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
     <None Include="Assets\ShaderForge\Readme.txt" />
@@ -78,6 +80,7 @@
     <None Include="Assets\Shader\ball_FakeLight.shader" />
     <None Include="Assets\Shader\ball_SSS.shader" />
     <None Include="Assets\ShaderForge\Example Assets\Shaders\TessellationDisplacement.shader" />
+    <None Include="Assets\Shader\ball_通道分离变色.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
