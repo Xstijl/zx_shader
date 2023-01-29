@@ -119,9 +119,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"E:/Shader/My project/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"E:/Shader/My project/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"E:/Shader/My project/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"E:/Shader/zx_shader/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"E:/Shader/zx_shader/Library/PackageCache/com.unity.collab-proxy@1.17.7/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"E:/Shader/zx_shader/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"E:/unity editor/2021.3.15f1c1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"E:/unity editor/2021.3.15f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/unity editor/2021.3.15f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
